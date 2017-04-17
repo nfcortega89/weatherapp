@@ -1,6 +1,40 @@
+@font-face {
+	font-family: 'CircularAirPro Book';
+	src: url('../style/CircularAirProBook/CircularAirPro-Book.eot');
+	src: url('../style/CircularAirProBook/CircularAirPro-Book.eot?#iefix') format('embedded-opentype'),
+		url('../style/CircularAirProBook/CircularAirPro-Book.woff') format('woff'),
+		url('../style/CircularAirProBook/CircularAirPro-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+  font-family: 'CircularAirPro Book';
+}
+.header-container {
+  margin: 2rem;
+}
+.text-header {
+  font-family: 'CircularAirPro Book';
+  font-weight: 900 !important;
+  color: #ff5a5f !important;
+  line-height: 56px !important;
+  letter-spacing: 2.2px !important;
+}
+.app-name {
+  margin-left: 1rem;
+  font-weight: 300 !important;
+  color: #000000 !important;
+  font-size: 41px !important;
+  line-height: 56px !important;
+  letter-spacing: 2.2px !important;
+}
 td, th {
   vertical-align: middle !important;
   text-align: center !important;
+}
+.temp, .humidity, .wind {
+  font-size: 3em;
 }
 .input-group {
   margin: 20px 0px;
@@ -10,6 +44,6 @@ svg {
 }
 
 td:first-of-type, td:first-of-type > div {
-  height: 200px;
+  height: 500px;
   width: 250px;
 }
