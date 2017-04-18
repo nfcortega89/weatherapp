@@ -11,8 +11,21 @@
 * {
   font-family: 'CircularAirPro Book';
 }
+.nav-container {
+ float: right;
+ clear:both
+}
+.nav-menu {
+	list-style-type: none;
+  display: inline-flex;
+}
+.nav-menu-items {
+  margin: 1rem 1rem 1rem 1rem;
+	font-size: 1rem;
+}
 .header-container {
   margin: 2rem;
+	    display: inline-flex;
 }
 .text-header {
   font-family: 'CircularAirPro Book';
