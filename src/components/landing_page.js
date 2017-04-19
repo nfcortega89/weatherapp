@@ -1,11 +1,27 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 export default class LandingPage extends Component {
-  render() {
+  render () {
     return (
-      <div className="header-container">
-        <h1 className="text-header">Flying conditions?</h1><span className="app-name"> Check with AirTime.</span>
+      <div className="jumbotron">
+        <h1>AirTime</h1>
+        <p>This MVP application provides drone users with a lists of flyzones along with current weather conditions.</p>
+        <h3>Select City</h3>
+        <ul>
+          <li>
+            <Link to="/san-diego">San Diego</Link>
+          </li>
+          <li>
+            <Link to="/los-angeles">Los Angeles</Link>
+          </li>
+          <li>
+            <Link to="/san-francisco">San Francisco</Link>
+          </li>
+        </ul>
       </div>
+
     )
   }
+
 }

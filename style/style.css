@@ -11,34 +11,21 @@
 * {
   font-family: 'CircularAirPro Book';
 }
-.nav-container {
- float: right;
- clear:both
+.row {
+	width: 100%
 }
-.nav-menu {
-	list-style-type: none;
-  display: inline-flex;
+.header-cta {
+	font-weight: bold;
+	color: black;
 }
-.nav-menu-items {
-  margin: 1rem 1rem 1rem 1rem;
-	font-size: 1rem;
-}
-.header-container {
-  margin: 2rem;
-	    display: inline-flex;
+.navbar {
+	color: black;
 }
 .text-header {
+	padding-left: 3rem;
   font-family: 'CircularAirPro Book';
   font-weight: 900 !important;
   color: #ff5a5f !important;
-  line-height: 56px !important;
-  letter-spacing: 2.2px !important;
-}
-.app-name {
-  margin-left: 1rem;
-  font-weight: 300 !important;
-  color: #000000 !important;
-  font-size: 41px !important;
   line-height: 56px !important;
   letter-spacing: 2.2px !important;
 }
@@ -46,8 +33,8 @@ td, th {
   vertical-align: middle !important;
   text-align: center !important;
 }
-.temp, .humidity, .wind {
-  font-size: 3em;
+.city, .temp, .precipitation, .wind {
+  font-size: 2em;
 }
 .input-group {
   margin: 20px 0px;
@@ -56,7 +43,7 @@ svg {
   height: 150px;
 }
 
-td:first-of-type, td:first-of-type > div {
-  height: 500px;
-  width: 250px;
+td:nth-child(2), td:nth-child(2) > div {
+  height: 100px;
+  width: 100px;
 }
