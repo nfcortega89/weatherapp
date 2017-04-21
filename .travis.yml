@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: O4R2przKRx+U9WAGYGbLINZfGDs6ynNdp8DXYdjNChhmVDRda9vfs90oueTYf3MSxxgHeVyz9eZqSIAEYR+IrTxEbH/y61iH7KUdK4YO4SWoXiNpQAnG1rSEOFPKouW9ObBOI29p07bTLR4n/Z13uWJ99Xjo/3lgFSwWGUjkMDVbPGObJhPLk7StUadLv94lb+p1Cawpd8niBW3RyfP4BbizAGyhIPgzntgO5soQix2ij+Lch/b4PYGpQ/HOelz2kFeMREgkAG9jqjVvwhoO4VSYmSbEuqKLomRuYsv52kXReq4m2N9k0Dk3eQJ5KQ5MhZOPmAYb53ggd7KICvlPPSXqxqAXoc6967GHKVpvh/RX2UOTEvqHrM2XitViJ+2riBRJAnaL1wWIBNeszEPPhTd06YejGl02EC5ai7cRHdvCjF6KK3U7Q7+UTxe9C3YruaLXC/AgzoZi/4SypQ8zUnntBCsZnX5mrY76QUZbR/q/VI3FsK0W/KHvDpC1Agpyyoh8MfqKzGAtFX8rxtSvesuSkU7g9F3DD7DKI733Js9Y28cEnNfUJmKUOfLIvJcVhJtk+i2c7e+aVGjMJhupshXQBjCY+x2MWSThm4PA16gOBVvcyPbvxeYc/xZor2Ht/PJ6a/txfjXlQqBASwYdPCB/lcPB4Y9ulzBgKDq/KyY=
+  app: fast-springs-54197
+  on:
+    repo: nfcortega89/weatherapp
